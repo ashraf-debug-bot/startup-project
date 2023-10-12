@@ -1,0 +1,214 @@
+*{
+    margin:0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #2F1893;
+
+}
+
+.header li{
+    display:flex;
+    margin-left: 50px;
+    margin-right: 10px;
+    color:white;
+    line-height: 26px;
+    font-size: 18px;
+    font-family: DM Sans;
+    cursor: pointer;
+}
+
+nav{
+    display:flex;
+    justify-content: center;
+    padding:55px;
+}
+button{
+    background: var(--action-third, #E93A7D);
+    border: 0px;
+    padding:6px;
+    border-radius: 20px;
+    padding-right:10px;
+    font-family: DM Sans;
+    font-style: normal;
+    color:white;
+    font-size: 16px;
+    cursor: pointer;
+}
+li:hover{
+    color: grey !important;
+}
+label{
+    color: grey !important;
+}
+span{
+margin-right: 60px;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.293px;
+font-family: 'DM Sans', sans-serif;
+}
+.main{
+    padding:60px;
+    display: flex;
+}
+.home h2{
+color: white;
+font-family: DM Sans;
+font-size: 45px;
+font-style: normal;
+font-weight: 700;
+line-height: 60px; /* 120.69% */
+letter-spacing: -1px;
+margin-left: 210px;
+}
+.content{
+    padding-top:15px;
+}
+.home h5{
+font-family: DM Sans;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+text-align: justify;
+margin-left: 210px;
+color: white;
+}
+.content-button{
+    padding-top: 15px;
+}
+.home button{
+    border-radius: 100px;
+background: var(--action-third, #E93A7D);
+margin-left: 210px;
+padding:9px;
+}
+form{
+    background-color: white;
+    width: 90%;
+    text-align: center;
+    padding:40px;
+  
+}
+hr{
+    width:50%;
+    border-bottom: 100px;
+}
+
+.login-page{
+padding:20px 20px;
+width:100%;
+margin-left: 200px;
+}
+input{
+    font-size: 15px;
+    width:100%;
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding:10px;
+}
+.email{
+    padding:15px;
+}
+.password{
+    padding:15px;
+}
+form h3{
+color: var(--colors-heading, #1E0E62);
+text-align: center;
+/* Heading / H3 Title */
+font-family: DM Sans;
+font-size: 42px;
+font-style: normal;
+font-weight: 700;
+line-height: 52px; /* 123.81% */
+letter-spacing: -0.4px;
+}
+.loginvia-button button{
+    width: 300px;
+   background-color: #1da1f2;
+    flex-shrink: 0;
+    padding:10px;
+}
+.signin-button{
+    padding-top: 20px;
+    
+}
+.signin-button button{
+    background-color: #482BE7;
+    flex-shrink: 0;
+    padding:10px;
+    width: 300px;
+    margin: auto;
+}
+.check{
+    display: flex;
+
+}
+.check input{
+    width:50px;
+}
+.active-green:active{
+    background-color: #25DAC5;
+}
+.sign-in{
+    color:#25DAC5
+}
+.bottom{
+    padding-top: 20px;
+}
+
+
+
+/* Adding this media query for mobile screen */
+
+@media screen and (max-width: 680px) {
+   
+   nav {
+    display: none;
+   }
+  
+   .home h2{
+    margin:0px;
+    text-align: center;
+    padding-top: 40px;
+    }
+    .home button{
+        border-radius: 100px;
+    background: var(--action-third, #E93A7D);
+    text-align: center;
+   margin: auto;
+   
+    }
+    
+    .home h5{
+        text-align: center;
+        margin:20px;
+        padding:30px;
+        line-height: 1.8;
+        font-size: 24px;
+
+    }
+    .main{
+        display: inline;
+    }
+    .login-page{
+        display: block;
+        margin:auto;
+        padding:0px;
+        padding-top: 30px;
+    }
+    form{
+        width:100%;
+        border-radius: 20px;
+    }
+    .content-button {
+        text-align: center;
+    }
+    header i {
+        display: inline;
+    }
+  }
